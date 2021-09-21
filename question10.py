@@ -6,4 +6,4 @@ def common_letter(str1,str2):#print common letter
                 file.append(i)
 
     return ",".join(file)
-print("common letters: " + common_letter("house","comphhuters"))
+print("common letters: " + common_letter("house","comphuters"))
