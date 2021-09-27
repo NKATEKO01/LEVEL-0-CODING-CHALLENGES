@@ -1,13 +1,11 @@
-#task7
-
-def f_to_c(x): #Far to Cel
+def far_to_cel(x):
     far = ((x - 32) * (5/9))
     return far
 
-print(f_to_c(15),"\xb0C")
+print(far_to_cel(15),"\xb0C")
 
-def c_to_f(y): #Cel to far
+def cel_to_far(y):
     cel = ((y * 9/5) + 32 )
     return cel
 
-print(c_to_f(15),"\xb0F")
+print(cel_to_far(15),"\xb0F")
