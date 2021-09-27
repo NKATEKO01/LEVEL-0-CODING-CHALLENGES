@@ -1,4 +1,4 @@
-def common_letter(str1,str2):#print common letter
+def common_letter(str1,str2):
     file=[]
     for i in str1:
         for k in str2:
