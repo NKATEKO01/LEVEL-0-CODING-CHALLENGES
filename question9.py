@@ -1,4 +1,4 @@
-def common_character(x): #print vowel
+def print_vowel(x):
     vowels = "a, e, i, o, u"
     words = []
     for i in x: 
@@ -9,4 +9,4 @@ def common_character(x): #print vowel
     
     print ("Vowels:",words)
 
-(common_character("Umuzi"))
+(print_vowel("Umuzi"))
