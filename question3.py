@@ -1,4 +1,3 @@
-#Task3
 def hello(str):
     print("hello " + str )
 
