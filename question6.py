@@ -1,7 +1,4 @@
-#Task6
-
-
-def max_num(a,b,c,):#print max number
+def max_num(a,b,c,):
     if (a > b and a > c):
         return a
     if (c > b and c > a):
