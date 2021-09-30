@@ -18,4 +18,4 @@ def number_convert(x):
     if hour == 1 and minutes==1:
         print(str(hour,),(a) +", "+ str(minutes),(d))
 
-number_convert(x)
+number_convert(4)
