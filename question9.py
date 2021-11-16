@@ -5,8 +5,8 @@ def print_vowel(x):
         u = i.lower()
         if (u in vowels ) and (u not in words):
             words.append(u)
-    words =', '.join(map(str, words)) 
-    
-    print ("Vowels:",words)
+    words = ', '.join(map(str, words)) 
+    print ("Vowels:", words)
 
+    
 (print_vowel("Umuzi"))
